@@ -7,7 +7,7 @@
     	WHERE LOWER (id) LIKE LOWER ('%tag%')
         OR    LOWER (date) LIKE LOWER ('%tag%')
         OR    LOWER (status) LIKE LOWER ('%tag%')
-	    OR    LOWER (firstName) LIKE LOWER ('%tag%')
+	OR    LOWER (firstName) LIKE LOWER ('%tag%')
         OR    LOWER (lastName) LIKE LOWER ('%tag%')
         OR    LOWER (nickname) LIKE LOWER ('%tag%')
         OR    LOWER (adress) LIKE LOWER ('%tag%')
@@ -28,7 +28,7 @@
     	WHERE LOWER (id) LIKE LOWER ('%tag%')
         OR    LOWER (date) LIKE LOWER ('%tag%')
         OR    LOWER (name) LIKE LOWER ('%tag%')
-	    OR    LOWER (description) LIKE LOWER ('%tag%')
+	OR    LOWER (description) LIKE LOWER ('%tag%')
         
 
         SELECT * 
@@ -36,7 +36,7 @@
     	WHERE LOWER (id) LIKE LOWER ('%tag%')
         OR    LOWER (date) LIKE LOWER ('%tag%')
         OR    LOWER (name) LIKE LOWER ('%tag%')
-	    OR    LOWER (description) LIKE LOWER ('%tag%')
+	OR    LOWER (description) LIKE LOWER ('%tag%')
         
 
         SELECT * 
@@ -44,14 +44,14 @@
     	WHERE LOWER (id) LIKE LOWER ('%tag%')
         OR    LOWER (date) LIKE LOWER ('%tag%')
         OR    LOWER (name) LIKE LOWER ('%tag%')
-	    OR    LOWER (description) LIKE LOWER ('%tag%')
+	OR    LOWER (description) LIKE LOWER ('%tag%')
 
         SELECT * 
     	FROM vehicule 
     	WHERE LOWER (id) LIKE LOWER ('%tag%')
         OR    LOWER (date) LIKE LOWER ('%tag%')
         OR    LOWER (name) LIKE LOWER ('%tag%')
-	    OR    LOWER (brand) LIKE LOWER ('%tag%')
+	OR    LOWER (brand) LIKE LOWER ('%tag%')
         OR    LOWER (color) LIKE LOWER ('%tag%')
         OR    LOWER (licenceplate) LIKE LOWER ('%tag%')
         OR    LOWER (description) LIKE LOWER ('%tag%')
@@ -62,9 +62,11 @@
     	WHERE LOWER (id) LIKE LOWER ('%tag%')
         OR    LOWER (date) LIKE LOWER ('%tag%')
         OR    LOWER (name) LIKE LOWER ('%tag%')
-	    OR    LOWER (brand) LIKE LOWER ('%tag%')
+	OR    LOWER (brand) LIKE LOWER ('%tag%')
         OR    LOWER (serial) LIKE LOWER ('%tag%')
         OR    LOWER (description) LIKE LOWER ('%tag%')
+
+	}
        
         
 
