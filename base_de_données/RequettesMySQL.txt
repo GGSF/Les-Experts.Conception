@@ -1,0 +1,72 @@
+        String[] tags = new String[] { "rouge", "grand", "dragon" };
+
+        for (String tag : tags) {       
+        
+        SELECT * 
+    	FROM people 
+    	WHERE LOWER (id) LIKE LOWER ('%tag%')
+        OR    LOWER (date) LIKE LOWER ('%tag%')
+        OR    LOWER (status) LIKE LOWER ('%tag%')
+	    OR    LOWER (firstName) LIKE LOWER ('%tag%')
+        OR    LOWER (lastName) LIKE LOWER ('%tag%')
+        OR    LOWER (nickname) LIKE LOWER ('%tag%')
+        OR    LOWER (adress) LIKE LOWER ('%tag%')
+        OR    LOWER (photo) LIKE LOWER ('%tag%')
+        OR    LOWER (adn) LIKE LOWER ('%tag%')
+        OR    LOWER (fingerPrint) LIKE LOWER ('%tag%')
+        OR    LOWER (tatoo) LIKE LOWER ('%tag%')
+        OR    LOWER (skinColoR) LIKE LOWER ('%tag%')
+        OR    LOWER (eyeColor) LIKE LOWER ('%tag%')
+        OR    LOWER (haireColor) LIKE LOWER ('%tag%')
+        OR    LOWER (hairStyle) LIKE LOWER ('%tag%')
+        OR    LOWER (size) LIKE LOWER ('%tag%')
+        OR    LOWER (weight) LIKE LOWER ('%tag%')
+        OR    LOWER (description) LIKE LOWER ('%tag%')
+
+        SELECT * 
+    	FROM policecase 
+    	WHERE LOWER (id) LIKE LOWER ('%tag%')
+        OR    LOWER (date) LIKE LOWER ('%tag%')
+        OR    LOWER (name) LIKE LOWER ('%tag%')
+	    OR    LOWER (description) LIKE LOWER ('%tag%')
+        
+
+        SELECT * 
+    	FROM photo 
+    	WHERE LOWER (id) LIKE LOWER ('%tag%')
+        OR    LOWER (date) LIKE LOWER ('%tag%')
+        OR    LOWER (name) LIKE LOWER ('%tag%')
+	    OR    LOWER (description) LIKE LOWER ('%tag%')
+        
+
+        SELECT * 
+    	FROM pieceofevidence 
+    	WHERE LOWER (id) LIKE LOWER ('%tag%')
+        OR    LOWER (date) LIKE LOWER ('%tag%')
+        OR    LOWER (name) LIKE LOWER ('%tag%')
+	    OR    LOWER (description) LIKE LOWER ('%tag%')
+
+        SELECT * 
+    	FROM vehicule 
+    	WHERE LOWER (id) LIKE LOWER ('%tag%')
+        OR    LOWER (date) LIKE LOWER ('%tag%')
+        OR    LOWER (name) LIKE LOWER ('%tag%')
+	    OR    LOWER (brand) LIKE LOWER ('%tag%')
+        OR    LOWER (color) LIKE LOWER ('%tag%')
+        OR    LOWER (licenceplate) LIKE LOWER ('%tag%')
+        OR    LOWER (description) LIKE LOWER ('%tag%')
+      
+
+        SELECT * 
+    	FROM weapon 
+    	WHERE LOWER (id) LIKE LOWER ('%tag%')
+        OR    LOWER (date) LIKE LOWER ('%tag%')
+        OR    LOWER (name) LIKE LOWER ('%tag%')
+	    OR    LOWER (brand) LIKE LOWER ('%tag%')
+        OR    LOWER (serial) LIKE LOWER ('%tag%')
+        OR    LOWER (description) LIKE LOWER ('%tag%')
+       
+        
+
+        
+        
